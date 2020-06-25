@@ -13,7 +13,7 @@ export default class PostsController {
 
   }
 
-  public async show({ request }: HttpContextContract){
+  public async show(){
 
     const post = await Post.find(1)
 
